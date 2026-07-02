@@ -55,7 +55,7 @@ jobs:
 
       - name: Descargar task definition actual de ECS
         run: |
-          aws ecs describe-task-definition --task-definition techstore-task \
+          aws ecs describe-task-definition --task-definition techstore-api \
             --query taskDefinition > task-definition.json
 
       - name: Actualizar imagen en task definition
