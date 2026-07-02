@@ -11,7 +11,7 @@ env:
   AWS_REGION: us-east-1
   ECR_REPOSITORY: techstore-api
   ECS_CLUSTER: techstore-cluster
-  ECS_SERVICE: techstore-service
+  ECS_SERVICE: techstore-api-service
   CONTAINER_NAME: techstore-api
 
 jobs:
