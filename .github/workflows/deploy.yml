@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - feat/crud-jwt-docker
+      - feat/cicd-swarm
       - main
 
 env:
